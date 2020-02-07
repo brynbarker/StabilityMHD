@@ -1,0 +1,3 @@
+Questions:
+
+in 2d do shape functions typically have support over just one element or multiple like in 1d?

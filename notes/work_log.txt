@@ -1,0 +1,25 @@
+ran a bunch of batch jobs for u+ between 0 and 1 and h1 ranging from 1 to 4. 
+
+some of the jobs were run with R=512 but only one finished in the allocated time
+
+the remainder of the jobs were run with R=.1
+
+after plotting it appeared there were a handfull of cases where the lopatinski was stable and the evans function was unstable! exciting.
+
+unfortunately in many of the cases it turned out to be because R was too small for the lopatinksi determinant. 
+
+the following h1,vp,xi values had stable lop and unstable evans
+1.4,.8,1e-4
+3.75,.99,1e-4
+
+barker wants me to plot the roots as h1 and xi varie for fixed uplus
+
+before that though
+
+1. rerun my big grid for R = 512
+2. rerun my big grid of batch jobs for different phi values
+i will store these in folders corresponding to the phi values
+
+i forgot to update my output file path so 1 and 2 are currently writin gto the same output pkl files, i took a gamble and figured that since i started 2 second, those will be the final results in the pkl files and i reran 1 with newly named output files
+
+i also submitted two jobs looking at the roots as h1 and xi vary for the two possible viscous instabilities from above
