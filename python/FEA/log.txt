@@ -1,0 +1,8 @@
+1/22
+
+for 1D heat equation linear and nonlinear solvers yield same results
+crank nicholson method for time evolution does not match the linear/nonlinear results
+
+todo
+try alternative time derivative
+check status on 1D mhd 
